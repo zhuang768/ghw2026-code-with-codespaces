@@ -2,7 +2,7 @@
 set -eu
 
 sudo apt-get update
-sudo apt-get install -y sl git-lfs
+sudo apt-get -y install sl git-lfs
 
 for shell_rc in "$HOME/.bashrc" "$HOME/.zshrc"; do
   touch "$shell_rc"
